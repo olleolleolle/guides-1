@@ -262,7 +262,7 @@ Further Reading
 * [my_malloc](https://github.com/rubygems/guides/tree/my_malloc) contains the
   source for this extension with some additional comments.
 * [extension.rdoc][extension.rdoc] describes in greater detail how to build
-  extensions in ruby
+  extensions in ruby  
 * [MakeMakefile][mkmf.rb] contains documentation for mkmf.rb, the library
   extconf.rb uses to detect ruby and C library features
 * [rake-compiler][rake-compiler] integrates building C and Java extensions into
@@ -274,6 +274,10 @@ Further Reading
 * Interfaces to C libraries can be written using ruby and
   [fiddle](http://ruby-doc.org/stdlib-2.0/libdoc/fiddle/rdoc/Fiddle.html) (part
   of the standard library) or [ruby-ffi](https://github.com/ffi/ffi)
+* [Extending Ruby](http://ruby-doc.com/docs/ProgrammingRuby/html/ext_ruby.html)
+  is a [Programming Ruby](http://docs.ruby-doc.com/docs/ProgrammingRuby/)
+  book chapter about building C extensions. _Please note_: this content is somewhat
+  older and some C extension APIs have changed.
 
 [extension.rdoc]: https://github.com/ruby/ruby/blob/trunk/doc/extension.rdoc
 [mkmf.rb]: https://github.com/ruby/ruby/blob/trunk/lib/mkmf.rb
